@@ -6,7 +6,7 @@ class SquirrelBookmarks < Formula
   version "0.1.9"
   sha256 "40867c1cb9dc407189e240374ae4b4db8ed2634062ca849bdf4e91b186b82c02"
 
-  depends_on "python@3.5"
+  depends_on "python@3.9"
 
   resource "PyYAML" do
     url "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz"
