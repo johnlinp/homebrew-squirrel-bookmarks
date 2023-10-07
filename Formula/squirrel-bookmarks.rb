@@ -16,6 +16,8 @@ class SquirrelBookmarks < Formula
   def install
     virtualenv_install_with_resources
 
+    etc.install "etc/profile.d/sq.sh" => "profile.d/sq.sh"
+
     bash_completion.install "etc/bash_completion.d/sq"
     bash_completion.install "etc/bash_completion.d/squirrel"
   end
